@@ -53,6 +53,7 @@ p{
     display: inline-block;
     border-radius: 0.5rem;
     font-weight: 700;
+    
 }
 .publish{
     font-weight: 550;
@@ -81,7 +82,7 @@ p{
 .footer{
     background-color: black;
 }
-@media (min-width: 375px)  {
+@media (max-width: 375px)  {
 
     p{
         margin: .25rem 0 0 0;

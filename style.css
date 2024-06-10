@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;
+}
+body{
+    
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(47, 88%, 63%);
+}
+.card{
+  width: 90%;
+  max-width: 350px;
+  position: fixed;
+  padding: 1.25rem;
+  background-color: hsl(0, 0%, 100%);
+  border: 3px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  border-radius: 1rem;
+  transform: translate(0, 0);
+}
+.card:hover{
+
+  transform: translate(-.25%, -.25%); 
+  transition: transform 0.3s ease;
+  box-shadow: 0.5rem 0.5rem black;
+    
+}
+.article{
+    width: 100%;
+    height: auto; 
+    border-radius: 1rem;
+  
+}
+
+p{
+    line-height: 1.5rem;
+    color: hsl(0, 0%, 50%);
+    margin: .75rem 0 0 0;
+    color: hsl(0, 0%, 7%);
+}
+
+
+.learn{
+    background-color:hsl(47, 88%, 63%) ;
+    padding: 0.35rem 0.75rem;
+    display: inline-block;
+    border-radius: 0.5rem;
+    font-weight: 700;
+}
+.publish{
+    font-weight: 550;
+}
+.heading{
+    font-size: 1.25rem;
+    font-weight: 1000;
+}
+
+.info{
+    color: hsl(0, 0%, 50%);
+}
+.author{
+    display: flex;
+    align-items: center;
+    margin: .75rem 0 0 0;
+}
+.author img {
+    width: 18%;
+    height: auto;
+}
+.author p{
+    margin: 0 0 0 1rem;
+    font-weight: 900;
+}
+.footer{
+    background-color: black;
+}
+@media (min-width: 375px)  {
+
+    p{
+        margin: .25rem 0 0 0;
+
+    }
+   
+}
+
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
